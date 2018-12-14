@@ -1,0 +1,185 @@
+/* Custom CSS */
+
+/* Navigation */
+h1, h2 {
+	color: #0c55a5;
+	margin-bottom: 30px;
+}
+section h2 {
+	font-size: 2.5rem;
+	font-weight: 400;
+}
+section {
+	padding: 60px 0;
+}
+button {
+	border-color: #c80e1f;
+	margin: auto 10px;
+}
+.header_short {
+	padding: 156px 0 68px;
+}
+.navbar {
+	background-color: #FFF !important;
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.navbar-light .navbar-nav .nav-link {
+	text-transform: uppercase !important;
+}
+.nav_cta {
+	background-color: #c80e1f;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.nav_cta a {
+	color: #FFF !important;
+}
+.bg-primary {
+	background: url('../images/bg_header.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+	background-color: none;
+}
+.lead_header h1 {
+	color: #FFF;
+}
+.lead_header input {
+	width: 200px;
+}
+.lead_header_button {
+	width: 250px;
+	background-color: #c80e1f;
+	color: #FFF;
+	text-transform: uppercase;
+}
+.lead_header h1 {
+	margin: 20px 0;
+	font-size: 3rem;
+    font-weight: 400;
+	text-shadow: 2px 2px black;
+}
+.lead_header p {
+	margin: 20px 0;
+	font-weight: bold;
+	text-shadow: 2px 2px black;
+}
+.headbar {
+	background-color: #0c55a5;
+	color: #FFF;
+	font-weight: 400;
+	padding: 20px 0;
+}
+.subtitle {
+	display: block;
+	font-size: 1.1rem;
+	text-align: center;
+	font-weight: bold;
+	color: #4a4a4a;
+	margin-top: 15px;
+}
+.checkmark_list {
+	list-style-image: url('../images/checkmark_red.png');
+}
+.checkmark_list li {
+	margin: 10px 0;
+}
+.testimonials_block {
+	background: url('../images/bg_testimonials.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+	background-color: none;
+}
+.testimonials_block h2 {
+	color: #FFF;
+	text-align: center;
+	text-shadow: 2px 2px black;
+}
+.review_block {
+	background-color: #FFF;
+	padding: 20px;
+}
+.review_block ul {
+	
+}
+.review_nav ul {
+	flex-direction: row;
+}
+.review_block p {
+	font-size: 1.3rem;
+	font-style: italic;
+}
+
+
+.book_block {
+	background-color: #FFF;
+	padding: 20px;
+}
+.book_block ul {
+	
+}
+.book_block p {
+	font-size: 1.3rem;
+	font-style: italic;
+	text-shadow: none;
+	font-weight: 600;
+	color: #222;
+}
+
+
+.review_block_dark {
+	background-color: #FFF;
+	padding: 20px;
+}
+.review_block_dark p {
+	font-size: 1.3rem;
+}
+.review_block_dark span {
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-align: center;
+}
+.width200 {
+	width: 200px;
+}
+.cta_title {
+	font-size: 1.4rem;
+}
+footer {
+	font-size: 0.9rem;
+}
+footer a {
+	color: #3f3f3f;
+}
+footer li {
+	margin: auto 15px;
+}
+.carousel-indicators {
+	width: 50px !important;
+	margin-right: 0;
+    margin-left: 0;
+	left: auto;
+	bottom: -10px;
+}
+.carousel-indicators .active {
+	background-color: #777777;
+}
+.carousel-indicators li {
+	background-color: #cacaca;
+	width: 10px;
+    height: 10px;
+	border-radius: 20px;
+}
+.faqs p {
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #eeeeee;
+}
+.faqs strong {
+	color: #0c55a5;
+	font-weight: bold;
+}
+.disclaimer {
+	font-size: 0.9rem;
+}
