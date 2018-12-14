@@ -37,7 +37,7 @@
 									between<br>
 									<span>10:00am and 12:00pm</span>
 									<p>Change of Plans? Need to Cancel?<br>
-									Please give us a call at 1-800-239-9813 to reschedule or cancel.</p>
+									Please give us a call at <a href="tel:+13236181141">3236181141</a> to reschedule or cancel.</p>
 								</p>
 							</div>
 					</div>

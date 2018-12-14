@@ -30,7 +30,7 @@
 				<input id="txtNumber" class="form-control form-control-lg d-inline-block" type="text" placeholder="Your Zip Code" onkeypress="return isNumberKey(event)">
 				<button type="submit" class="btn-lg lg-2 lead_header_button">Check Availability</button>
 			</form>
-			<p class="lead">Or Call (800) 239-9813</p>
+			<p class="lead">Or Call <a href="tel:+13236181141">3236181141</a></p>
 		</div>
       </div>
     </header>
@@ -133,7 +133,7 @@
 		  
 		  <div class="row">
           <div class="col-lg-8 mx-auto mt-5">
-            <p class="lead">With American Junk Haul, you can expect a simple process, the lowest rates, and the highest quality of service. Give us a call at 1-800-239-9813 or make an appointment online for free no-obligation estimate.</p>
+            <p class="lead">With American Junk Haul, you can expect a simple process, the lowest rates, and the highest quality of service. Give us a call at <a href="tel:+13236181141">3236181141</a> or make an appointment online for free no-obligation estimate.</p>
           </div>
         </div>
       </div>
