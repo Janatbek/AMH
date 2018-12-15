@@ -24,24 +24,24 @@
 
     <header class="bg-primary text-white">
       <div class="container text-center">
-		<div class="lead_header">
-			<h1>Affordable Junk Removal Services in Van Nuys, CA</h1>
-			<form method="post" action="free-appointment">
-				<input id="txtNumber" class="form-control form-control-lg d-inline-block" type="text" placeholder="Your Zip Code" onkeypress="return isNumberKey(event)" name="zipCode">
-				<button type="submit" class="btn-lg lg-2 lead_header_button">Check Availability</button>
-			</form>
-			<p class="lead">Or Call <a href="tel:+13236181141">3236181141</a></p>
-		</div>
+				<div class="lead_header">
+					<h1>Affordable Junk Removal Services in Van Nuys, CA</h1>
+					<form method="post" action="free-appointment" >
+						<input id="txtNumber" class="form-control form-control-lg d-inline-block" type="text" placeholder="Your Zip Code" onkeypress="return isNumberKey(event)" name="zipCode">
+						<button type="submit" class="btn-lg lg-2 lead_header_button">Check Availability</button>
+					</form>
+					<p class="lead">Or Call <a href="tel:+13236181141" class="phone" >3236181141</a></p>
+				</div>
       </div>
     </header>
 	
 	<section class="headbar">
       <div class="container">
         <div class="row">
-			<div class="col-lg-3"><img src="images/icon_same_day_service.png"> Same Day Service</div>
-			<div class="col-lg-3"><img src="images/icon_guarantee.png"> Price Guarantee</div>
-			<div class="col-lg-3"><img src="images/icon_rated.png"> Highly Rated</div>
-			<div class="col-lg-3"><img src="images/icon_insured.png"> Licensed & Insured</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_same_day_service.png"> Same Day Service</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_guarantee.png"> Price Guarantee</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_rated.png"> Highly Rated</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_insured.png"> Licensed & Insured</div>
         </div>
       </div>
     </section>  
@@ -60,17 +60,17 @@
 			<div class="col-1"></div>
 			<div class="col-10">
 				<div class="row">
-				<div class="col-4 text-center">
+				<div class="col-sm-12 col-md-4 text-center">
 					<a href="household-junk"><img src="images/image_yard.png">
 					<span class="subtitle">Household Junk</span></a>
 				</div>
 			  
-				<div class="col-4 text-center">
+				<div class="col-sm-12 col-md-4 text-center">
 					<a href="office-junk"><img src="images/image_office_junk.png">
 					<span class="subtitle">Office Junk</span></a>
 				</div>
 
-				<div class="col-4 text-center">
+				<div class="col-sm-12 col-md-4 text-center">
 					<a href="general-junk"><img src="images/image_junk.png">
 					<span class="subtitle">General Junk</span></a>
 				</div> 
@@ -97,7 +97,7 @@
 			<div class="col-1"></div>
 			<div class="col-10">
 				<div class="row">
-				<div class="col-4 text-left">
+				<div class="col-sm-12 col-md-4 text-left">
 					<ul class="checkmark_list">
 						<li>Appliance Removal</li>
 						<li>Hot Tub Disposal</li>
@@ -106,7 +106,7 @@
 					</ul>
 				</div>
 					
-				<div class="col-4 text-left">
+				<div class="col-sm-12 col-md-4 text-left">
 					<ul class="checkmark_list">
 						<li>Furniture Removal</li>
 						<li>Television Disposal & Recycling</li>
@@ -115,7 +115,7 @@
 					</ul>
 				</div>
 
-				<div class="col-4 text-left">
+				<div class="col-sm-12 col-md-4 text-left">
 					<ul class="checkmark_list">
 						<li>Mattress Disposal</li>
 						<li>Refrigerator Disposal & Recycling</li>
@@ -131,7 +131,7 @@
 		
       </div>
     </section>  
-	  // put yelp here
+	  <!-- put yelp here -->
     <section id="howitworks">
       <div class="container">
         <div class="row">
@@ -139,10 +139,10 @@
             <h2 class="text-center">How It Works</h2>
             
 			  <div class="row">
-			  	<div class="col-4">
+			  	<div class="col-sm-12 col-md-4 mb-2" style="text-align: center;">
 					<img src="images/image_recycle.png" class="img-fluid">
 				</div>
-			  	<div class="col-8">
+			  	<div class="col-sm-12 col-md-8">
 					<div class="row">
 						<div class="col-12"><img src="images/round_1.png" class="mr-3">You pick a date and a two-hour window.</div>
 					</div>
@@ -165,16 +165,18 @@
 	<section class="headbar">
       <div class="container">
         <div class="row">
-			<div class="col-lg-6 mt-2"><span class="cta_title">Book Your <strong>Free Appointment</strong> Today!</span></div>
-			<div class="col-lg-6">
-				<form method="post" action="free-appointment">
-					<input id="txtNumber" class="form-control form-control-lg d-inline-block width200" type="text" placeholder="Your Zip Code" onkeypress="return isNumberKey(event)">
-					<button type="submit" class="btn-lg lg-2 lead_header_button">Check Availability</button>
-				</form>
-			</div>
-        </div>
-      </div>
-    </section>    
+					<div class="col-lg-6 mt-2">
+						<span class="cta_title">Book Your <strong>Free Appointment</strong> Today!</span>
+					</div>
+					<div class="col-lg-6">
+						<form method="post" action="free-appointment" class="headbar-form">
+							<input id="txtNumber" class="form-control form-control-lg d-inline-block width200" type="text" placeholder="Your Zip Code" onkeypress="return isNumberKey(event)">
+							<button type="submit" class="btn-lg lg-2 lead_header_button">Check Availability</button>
+						</form>
+					</div>
+    		</div>
+  		</div>
+		</section>    
 	  
 	  
 <?php include ("footer.php"); ?>

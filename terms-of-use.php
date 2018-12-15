@@ -34,10 +34,10 @@
 	<section class="headbar">
       <div class="container">
         <div class="row">
-			<div class="col-lg-3"><img src="images/icon_same_day_service.png"> Same Day Service</div>
-			<div class="col-lg-3"><img src="images/icon_guarantee.png"> Price Guarantee</div>
-			<div class="col-lg-3"><img src="images/icon_rated.png"> Highly Rated</div>
-			<div class="col-lg-3"><img src="images/icon_insured.png"> Licensed & Insured</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_same_day_service.png"> Same Day Service</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_guarantee.png"> Price Guarantee</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_rated.png"> Highly Rated</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_insured.png"> Licensed & Insured</div>
         </div>
       </div>
     </section>  
@@ -129,7 +129,7 @@ Digital Millennium Copyright Act Policy<br>
 It is expected that all users of any part of the Website will comply with applicable copyright laws. If AmericanJunkHaul.com receives proper notification of claimed copyright infringement, our response to these notices will include removing or disabling access to material claimed to be the subject of infringing activity and/or terminating user Account(s), regardless of whether we may be liable for such infringement under United States law or the laws of another jurisdiction. If we remove or disable access to the Website in response to such a notice, we will make a good-faith attempt to contact the owner or administrator of the affected Website or content so that they may make a counter notification pursuant to Sections 512(g)(2) and (3) of the DMCA. We may also document notices of alleged infringement on which we act.</p>
 	
 <h3>Designated Agent</h3>
-<p class="lead">AmericanJunkHaul.com’s Designated Agent to receive notification of alleged infringement under the DMCA is: legal@AmericanJunkHaul.com</p>
+<p class="lead">AmericanJunkHaul.com’s Designated Agent to receive notification of alleged infringement under the DMCA is: <a href="mailto:americanjunkhaul@gmail.com">americanjunkhaul@gmail.com</a></p>
 
 <p class="lead">Upon receipt of proper notification of claimed infringement, AmericanJunkHaul.com will follow the procedures outlined herein and in the DMCA.</p>
 	
@@ -189,7 +189,7 @@ You and AmericanJunkHaul.com agree that the following will not be subject to arb
 In the event that either party initiates a proceeding involving any Claim (except for any Excluded Claim) other than an arbitration, or initiates a proceeding involving a Claim other than in the forum specified, the other party shall recover all attorneys' fees and expenses reasonably incurred in enforcing this agreement to arbitrate and proceed in the forum to which the parties have herein agreed.</p>
 	
 <h3>Contact Information</h3>
-<p class="lead">If you have any questions or comments about these our Terms of Service as outlined above, you can contact us at: legal@AmericanJunkHaul.com
+<p class="lead">If you have any questions or comments about these our Terms of Service as outlined above, you can contact us at: <a href="mailto:americanjunkhaul@gmail.com">americanjunkhaul@gmail.com</a>
 </p>
 
 		  </div>
@@ -197,7 +197,7 @@ In the event that either party initiates a proceeding involving any Claim (excep
         </div> 
         </div>
     </section>  
-	// put yelp here
+	<!-- put yelp here -->
 	<section class="headbar">
       <div class="container">
         <div class="row">

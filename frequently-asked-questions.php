@@ -34,10 +34,10 @@
 	<section class="headbar">
       <div class="container">
         <div class="row">
-			<div class="col-lg-3"><img src="images/icon_same_day_service.png"> Same Day Service</div>
-			<div class="col-lg-3"><img src="images/icon_guarantee.png"> Price Guarantee</div>
-			<div class="col-lg-3"><img src="images/icon_rated.png"> Highly Rated</div>
-			<div class="col-lg-3"><img src="images/icon_insured.png"> Licensed & Insured</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_same_day_service.png"> Same Day Service</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_guarantee.png"> Price Guarantee</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_rated.png"> Highly Rated</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_insured.png"> Licensed & Insured</div>
         </div>
       </div>
     </section>  
@@ -93,7 +93,7 @@ A: Unfortunately, we do not.</p>
         </div> 
         </div>
     </section>  
-// put yelp here
+<!-- put yelp here -->
 	<section class="headbar">
       <div class="container">
         <div class="row">

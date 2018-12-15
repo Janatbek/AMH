@@ -30,7 +30,7 @@
 				<input id="txtNumber" class="form-control form-control-lg d-inline-block" type="text" placeholder="Your Zip Code" onkeypress="return isNumberKey(event)">
 				<button type="submit" class="btn-lg lg-2 lead_header_button">Check Availability</button>
 			</form>
-			<p class="lead">Or Call <a href="tel:+13236181141">3236181141</a></p>
+			<p class="lead">Or Call <a href="tel:+13236181141" class="phone">3236181141</a></p>
 		</div>
       </div>
     </header>
@@ -38,10 +38,10 @@
 	<section class="headbar">
       <div class="container">
         <div class="row">
-			<div class="col-lg-3"><img src="images/icon_same_day_service.png"> Same Day Service</div>
-			<div class="col-lg-3"><img src="images/icon_guarantee.png"> Price Guarantee</div>
-			<div class="col-lg-3"><img src="images/icon_rated.png"> Highly Rated</div>
-			<div class="col-lg-3"><img src="images/icon_insured.png"> Licensed & Insured</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_same_day_service.png"> Same Day Service</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_guarantee.png"> Price Guarantee</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_rated.png"> Highly Rated</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_insured.png"> Licensed & Insured</div>
         </div>
       </div>
     </section>  
@@ -56,7 +56,7 @@
 		  <div class="col-lg-7 mx-auto">
 			<h2>What We Take</h2>  
 			
-            <p class="lead">We can take <strong>just about anything</strong>, as long as it’s non-hazardous and can be lifted by our two strong crew members. Our team is happy to meet all of your junk hauling needs! To get started, book your no-obligation appointment online or by calling us at <a href="tel:+13236181141">3236181141</a>.</p>
+            <p class="lead">We can take <strong>just about anything</strong>, as long as it’s non-hazardous and can be lifted by our two strong crew members. Our team is happy to meet all of your junk hauling needs! To get started, book your no-obligation appointment online or by calling us at <a href="tel:+13236181141" class="phone">3236181141</a>.</p>
 				
 			<p class="lead">When we arrive, just point to the junk you want removed and we will provide you with an upfront, all-inclusive price. Once you say the word, we’ll haul everything away from wherever the items are located. We’ll even sweep up the area when we’re done! Plus, <strong>we recycle and donate your junk</strong> whenever possible, so you’re helping to keep junk out of the landfill and giving back to the community, too.</p>
 				
@@ -69,17 +69,17 @@
 			<div class="col-1"></div>
 			<div class="col-10">
 				<div class="row">
-				<div class="col-4 text-center">
+				<div class="col-sm-12 col-md-4 text-center">
 					<a href="household-junk"><img src="images/image_yard.png">
 					<span class="subtitle">Household Junk</span></a>
 				</div>
 			  
-				<div class="col-4 text-center">
+				<div class="col-sm-12 col-md-4 text-center">
 					<a href="office-junk"><img src="images/image_office_junk.png">
 					<span class="subtitle">Office Junk</span></a>
 				</div>
 
-				<div class="col-4 text-center">
+				<div class="col-sm-12 col-md-4 text-center">
 					<a href="general-junk"><img src="images/image_junk.png">
 					<span class="subtitle">General Junk</span></a>
 				</div> 

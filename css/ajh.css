@@ -29,7 +29,7 @@ button {
 .nav_cta {
 	background-color: #c80e1f;
 	font-weight: bold;
-	margin-left: 10px;
+	padding-left: 10px;
 }
 .nav_cta a {
 	color: #FFF !important;
@@ -45,7 +45,8 @@ button {
 	color: #FFF;
 }
 .lead_header input {
-	width: 200px;
+	width: 250px;
+	margin-bottom: 10px;
 }
 .lead_header_button {
 	width: 250px;
@@ -141,7 +142,8 @@ button {
 	text-align: center;
 }
 .width200 {
-	width: 200px;
+	width: 250px;
+	margin-bottom: 10px;
 }
 .cta_title {
 	font-size: 1.4rem;
@@ -182,4 +184,19 @@ footer li {
 }
 .disclaimer {
 	font-size: 0.9rem;
+}
+
+.phone {
+	color: white;
+	text-decoration-line: none;
+}
+/* Media Devices */
+/* Phones */
+@media (max-width:768px){
+ .navbar-brand img{
+   width:250px;
+ }
+ form.headbar-form {
+   text-align: center;
+ }
 }

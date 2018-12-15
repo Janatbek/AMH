@@ -34,10 +34,10 @@
 	<section class="headbar">
       <div class="container">
         <div class="row">
-			<div class="col-lg-3"><img src="images/icon_same_day_service.png"> Same Day Service</div>
-			<div class="col-lg-3"><img src="images/icon_guarantee.png"> Price Guarantee</div>
-			<div class="col-lg-3"><img src="images/icon_rated.png"> Highly Rated</div>
-			<div class="col-lg-3"><img src="images/icon_insured.png"> Licensed & Insured</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_same_day_service.png"> Same Day Service</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_guarantee.png"> Price Guarantee</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_rated.png"> Highly Rated</div>
+			<div class="col-lg-3 mt-2"><img src="images/icon_insured.png"> Licensed & Insured</div>
         </div>
       </div>
     </section>  
@@ -130,14 +130,14 @@ COPPA (Children Online Privacy Protection Act)</p>
 <p class="lead">The CAN-SPAM Act is a law that sets the rules for commercial email, establishes requirements for commercial messages, gives recipients the right to have emails stopped from being sent to them, and spells out tough penalties for violations. We collect your email address in order to:</p>
 
 <p class="lead">To be in accordance with CANSPAM we agree to the following:<br>
-• If at any time you would like to unsubscribe from receiving future emails, you can email us at info@americanjunkhaul.com and we will promptly remove you from ALL correspondence.</p>
+• If at any time you would like to unsubscribe from receiving future emails, you can email us at <a href="mailto:americanjunkhaul@gmail.com">americanjunkhaul@gmail.com</a> and we will promptly remove you from ALL correspondence.</p>
 
 		  </div>
 		  <div class="col-lg-2 mx-auto"></div>
         </div> 
         </div>
     </section>  
-		// put yelp here
+		<!-- put yelp here -->
 	<section class="headbar">
       <div class="container">
         <div class="row">
