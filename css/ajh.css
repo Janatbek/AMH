@@ -29,7 +29,7 @@ button {
 .nav_cta {
 	background-color: #c80e1f;
 	font-weight: bold;
-	padding-left: 10px;
+	padding:0  10px;
 }
 .nav_cta a {
 	color: #FFF !important;
