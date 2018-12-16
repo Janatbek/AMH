@@ -133,25 +133,10 @@
 		  
 		  <div class="row">
           <div class="col-lg-8 mx-auto mt-5">
-            <p class="lead">With American Junk Haul, you can expect a simple process, the lowest rates, and the highest quality of service. Give us a call at <a href="tel:+13236181141" class="phone">3236181141</a> or make an appointment online for free no-obligation estimate.</p>
+            <p class="lead">With American Junk Haul, you can expect a simple process, the lowest rates, and the highest quality of service. Give us a call at <a href="tel:+13236181141">3236181141</a> or make an appointment online for free no-obligation estimate.</p>
           </div>
         </div>
       </div>
     </section>
-
-	<section class="headbar">
-      <div class="container">
-        <div class="row">
-			<div class="col-lg-6 mt-2"><span class="cta_title">Book Your <strong>Free Appointment</strong> Today!</span></div>
-			<div class="col-lg-6">
-				<form method="post" action="free-appointment">
-					<input id="txtNumber" class="form-control form-control-lg d-inline-block width200" type="text" placeholder="Your Zip Code" onkeypress="return isNumberKey(event)">
-					<button type="submit" class="btn-lg lg-2 lead_header_button">Check Availability</button>
-				</form>
-			</div>
-        </div>
-      </div>
-    </section>    
-	  
-	  
+<?php include("form-start.php"); ?> 
 <?php include ("footer.php"); ?>

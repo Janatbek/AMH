@@ -49,20 +49,20 @@
 	<section id="about">
       <div class="container">		  
         <div class="row">
-			<div class="col-lg-1 mx-auto"></div>
-			<div class="col-lg-3 mx-auto">
-		  	<img src="images/image_recycle.png" class="img-fluid mt-5">
-		  </div>
-		  <div class="col-lg-7 mx-auto">
-			<h2>Household Junk Removal</h2>  
-			
-            <p class="lead">Moving in or out of your home? Need professional junk removal services? American Junk Haul is your go to service provider for all your household junk removal needs. We deal with the hassle of unwanted junk so you don’t have to! Whether you are renovating your home or building it up from the bare bones, we can help you get the clean environment you want.</p>
+					<div class="col-lg-1 mx-auto"></div>
+					<div class="col-lg-3 mx-auto">
+						<img src="images/image_recycle.png" class="img-fluid mt-5">
+					</div>
+					<div class="col-lg-7 mx-auto">
+						<h2>Household Junk Removal</h2>  
+						
+						<p class="lead">Moving in or out of your home? Need professional junk removal services? American Junk Haul is your go to service provider for all your household junk removal needs. We deal with the hassle of unwanted junk so you don’t have to! Whether you are renovating your home or building it up from the bare bones, we can help you get the clean environment you want.</p>
 
-			<p class="lead">When it comes to Junk Removal in the Los Angeles area, we are the experts. We have the experienced crews and the perfect-sized equipment to efficiently remove an entire house full of junk or a portion of a house while keeping the impact on the surrounding landscape to a minimum.</p>
-		  </div>
-		  <div class="col-lg-1 mx-auto"></div>
+						<p class="lead">When it comes to Junk Removal in the Los Angeles area, we are the experts. We have the experienced crews and the perfect-sized equipment to efficiently remove an entire house full of junk or a portion of a house while keeping the impact on the surrounding landscape to a minimum.</p>
+					</div>
+					<div class="col-lg-1 mx-auto"></div>
         </div>
-        </div>
+			</div>
     </section>   
 
 	  
@@ -75,21 +75,21 @@
 			  		<div class="col-12">
 						<div class="review_block_dark rounded">
 							<div class="row">
-								<div class="col-4">
+								<div class="col-sm-12 col-md-4">
 									<ul class="checkmark_list">
 										<li>Appliances »</li>
 										<li>Refrigerators »</li>
 										<li>Furniture »</li>
 									</ul>
 								</div>
-								<div class="col-4">
+								<div class="col-sm-12 col-md-4">
 									<ul class="checkmark_list">
 										<li>Mattresses »</li>
 										<li>Carpeting »</li>
 										<li>Electronics »</li>
 									</ul>
 								</div>
-								<div class="col-4">
+								<div class="col-sm-12 col-md-4">
 									<ul class="checkmark_list">
 										<li>Hot Tubs »</li>
 										<li>Patio Furniture »</li>
@@ -155,22 +155,6 @@
 		  <div class="col-lg-1 mx-auto"></div>
         </div>
         </div>
-    </section>
-
-	  
-	<section class="headbar">
-      <div class="container">
-        <div class="row">
-			<div class="col-lg-6 mt-2"><span class="cta_title">Book Your <strong>Free Appointment</strong> Today!</span></div>
-			<div class="col-lg-6">
-				<form method="post" action="free-appointment">
-					<input id="txtNumber" class="form-control form-control-lg d-inline-block width200" type="text" placeholder="Your Zip Code" onkeypress="return isNumberKey(event)">
-					<button type="submit" class="btn-lg lg-2 lead_header_button">Check Availability</button>
-				</form>
-			</div>
-        </div>
-      </div>
-    </section>    
-	  
-	  
+    </section>	  
+<?php include("form-start.php"); ?>	  
 <?php include ("footer.php"); ?>

@@ -58,7 +58,7 @@
 
 				<p class="lead">While realizing that trash and debris has to go somewhere, we don’t believe that expanding landfills is the only solution.</p>
 
-				<p class="lead">This is why we’re proud to offer our professional, affordable, and sustainable junk removal solutions to our friends and neighbors in Los Angeles, Orange, Ventura, and San Bernardino Counties. If your home or business is in one of these areas, we invite you to give us a call at <strong><a href="tel:+13236181141" class="phone">3236181141</a></strong> or book online for free no-obligation estimate appointment.</p>
+				<p class="lead">This is why we’re proud to offer our professional, affordable, and sustainable junk removal solutions to our friends and neighbors in Los Angeles, Orange, Ventura, and San Bernardino Counties. If your home or business is in one of these areas, we invite you to give us a call at <strong><a href="tel:+13236181141">3236181141</a></strong> or book online for free no-obligation estimate appointment.</p>
 			</div>
 			<div class="col-lg-1 mx-auto"></div>
 
@@ -68,19 +68,5 @@
         </div>
     </section>  
 		<!-- put yelp here -->
-	<section class="headbar">
-      <div class="container">
-        <div class="row">
-			<div class="col-lg-6 mt-2"><span class="cta_title">Book Your <strong>Free Appointment</strong> Today!</span></div>
-			<div class="col-lg-6">
-				<form method="post" action="free-appointment">
-					<input id="txtNumber" class="form-control form-control-lg d-inline-block width200" type="text" placeholder="Your Zip Code" onkeypress="return isNumberKey(event)">
-					<button type="submit" class="btn-lg lg-2 lead_header_button">Check Availability</button>
-				</form>
-			</div>
-        </div>
-      </div>
-    </section>    
-	  
-	  
+<?php include("form-start.php"); ?>
 <?php include ("footer.php"); ?>

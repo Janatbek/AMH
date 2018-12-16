@@ -190,7 +190,7 @@ footer li {
 	color: white;
 	text-decoration-line: none;
 }
-/* Media Devices */
+/* ----------- Media Devices ------*/
 /* Phones */
 @media (max-width:768px){
  .navbar-brand img{
@@ -199,4 +199,15 @@ footer li {
  form.headbar-form {
    text-align: center;
  }
+}
+
+/* ----------- Tablets ----------- */
+
+/* Portrait and Landscape */
+@media (min-width: 768px) 
+  and (max-width: 1024px) {
+	.book-appointment {
+		text-align: center;
+    	line-height: 2.5em;
+	}
 }

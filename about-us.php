@@ -59,7 +59,7 @@
 					<div class="col-lg-1 mx-auto"></div>
 					<div class="col-lg-7 mx-auto">
 						<p class="lead">Our passion centers around contributing to a cleaner, more eco-friendly California, especially in Los Angeles and the surrounding communities, which is why we not only remove junk and debris that other companies won’t take, but also recycle or reuse over 80% of the items we pick up, including donating items that are still in good condition to charity.</p>
-						<p class="lead">Whatever you call us, we have the team and the trucks to meet all of your junk removal needs. Contact us at <a href="tel:+13236181141" class="phone">1 (323) 618-1141</a> or book online today!</p>
+						<p class="lead">Whatever you call us, we have the team and the trucks to meet all of your junk removal needs. Contact us at <a href="tel:+13236181141">1 (323) 618-1141</a> or book online today!</p>
 					</div>
 					<div class="col-lg-3 mx-auto">
 							<img src="images/image_office_junk.png" class="img-fluid">
@@ -68,23 +68,5 @@
         </div>  
       </div>
     </section>  
-		<section class="headbar">
-      <div class="container">
-        <div class="row">
-					<div class="col-lg-6 mt-2"><span class="cta_title">Book Your <strong>Free Appointment</strong> Today!</span></div>
-						<div class="col-lg-6">
-						<form method="post" action="free-appointment">
-							<input id="txtNumber" 
-								class="form-control form-control-lg d-inline-block width200" 
-								type="text" 
-								placeholder="Your Zip Code" 
-								onkeypress="return isNumberKey(event)">
-							<button type="submit" class="btn-lg lg-2 lead_header_button">Check Availability</button>
-						</form>
-					</div>
-        </div>
-      </div>
-    </section>    
-	  
-	  
+<?php include("form-start.php"); ?>
 <?php include ("footer.php"); ?>

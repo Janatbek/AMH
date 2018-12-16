@@ -9,8 +9,8 @@
     <meta name="author" content="">
 
     <title>American Junk Haul</title>
-	<link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -30,7 +30,7 @@
 						<input id="txtNumber" class="form-control form-control-lg d-inline-block" type="text" placeholder="Your Zip Code" onkeypress="return isNumberKey(event)" name="zipCode">
 						<button type="submit" class="btn-lg lg-2 lead_header_button">Check Availability</button>
 					</form>
-					<p class="lead">Or Call <a href="tel:+13236181141" class="phone" >3236181141</a></p>
+					<p class="lead">Or Call <a href="tel:+13236181141" class="phone">3236181141</a></p>
 				</div>
       </div>
     </header>
@@ -97,33 +97,32 @@
 			<div class="col-1"></div>
 			<div class="col-10">
 				<div class="row">
-				<div class="col-sm-12 col-md-4 text-left">
-					<ul class="checkmark_list">
-						<li>Appliance Removal</li>
-						<li>Hot Tub Disposal</li>
-						<li>E-Waste Disposal</li>
-						<li>Trash Removal</li>
-					</ul>
-				</div>
+					<div class="col-sm-12 col-md-4 text-left">
+						<ul class="checkmark_list">
+							<li>Appliance Removal</li>
+							<li>Hot Tub Disposal</li>
+							<li>E-Waste Disposal</li>
+							<li>Trash Removal</li>
+						</ul>
+					</div>
 					
-				<div class="col-sm-12 col-md-4 text-left">
-					<ul class="checkmark_list">
-						<li>Furniture Removal</li>
-						<li>Television Disposal & Recycling</li>
-						<li>Yard Waste Removal</li>
-						<li>Foreclosure Clean Outs</li>
-					</ul>
-				</div>
+					<div class="col-sm-12 col-md-4 text-left">
+						<ul class="checkmark_list">
+							<li>Furniture Removal</li>
+							<li>Television Disposal & Recycling</li>
+							<li>Yard Waste Removal</li>
+							<li>Foreclosure Clean Outs</li>
+						</ul>
+					</div>
 
-				<div class="col-sm-12 col-md-4 text-left">
-					<ul class="checkmark_list">
-						<li>Mattress Disposal</li>
-						<li>Refrigerator Disposal & Recycling</li>
-						<li>Construction Waste Removal</li>
-						<li>Garbage Removal</li>
-					</ul>
-				</div> 
-				
+					<div class="col-sm-12 col-md-4 text-left">
+						<ul class="checkmark_list">
+							<li>Mattress Disposal</li>
+							<li>Refrigerator Disposal & Recycling</li>
+							<li>Construction Waste Removal</li>
+							<li>Garbage Removal</li>
+						</ul>
+					</div> 
 				</div> 
 			</div>
 			<div class="col-1"></div>
@@ -160,23 +159,7 @@
           </div>
         </div>		  
       </div>
-    </section>
-
-	<section class="headbar">
-      <div class="container">
-        <div class="row">
-					<div class="col-lg-6 mt-2">
-						<span class="cta_title">Book Your <strong>Free Appointment</strong> Today!</span>
-					</div>
-					<div class="col-lg-6">
-						<form method="post" action="free-appointment" class="headbar-form">
-							<input id="txtNumber" class="form-control form-control-lg d-inline-block width200" type="text" placeholder="Your Zip Code" onkeypress="return isNumberKey(event)">
-							<button type="submit" class="btn-lg lg-2 lead_header_button">Check Availability</button>
-						</form>
-					</div>
-    		</div>
-  		</div>
-		</section>    
-	  
-	  
+		</section>
+<?php include ("form-start.php"); ?>
 <?php include ("footer.php"); ?>
+
