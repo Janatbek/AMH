@@ -1,28 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>American Junk Haul</title>
-	<link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-	  <link href="css/ajh.css" rel="stylesheet">
-  </head>
-
+<?php include ("html-head.php"); ?>
 <?php include ("header.php"); ?>
-
     <header class="bg-primary text-white header_short">
       <div class="container text-center">
-		<div class="lead_header">
-			<h1>Full Service Junk Removal Service</h1>
-<p class="lead">We provide superior value, service and effort</p>
-		</div>
+				<div class="lead_header">
+					<h1>Full Service Junk Removal Service</h1>
+					<p class="lead">We provide superior value, service and effort</p>
+				</div>
       </div>
     </header>
 	
@@ -46,7 +29,7 @@
 					
 				<div class="row">
 					<div class="col-lg-1 mx-auto"></div>
-					<div class="col-lg-3 mx-auto">
+					<div class="col-lg-3 m-auto">
 						<img src="images/image_recycle.png" class="img-fluid">
 					</div>
 					<div class="col-lg-7 mx-auto">

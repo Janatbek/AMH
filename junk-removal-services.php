@@ -50,7 +50,7 @@
       <div class="container">		  
         <div class="row">
 			<div class="col-lg-2 mx-auto"></div>
-			<div class="col-lg-3 mx-auto">
+			<div class="col-lg-3 m-auto image-container">
 		  	<img src="images/image_recycle.png" class="img-fluid">
 		  </div>
 		  <div class="col-lg-5 mx-auto">

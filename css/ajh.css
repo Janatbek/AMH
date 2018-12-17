@@ -190,11 +190,15 @@ footer li {
 	color: white;
 	text-decoration-line: none;
 }
+
 /* ----------- Media Devices ------*/
 /* Phones */
 @media (max-width:768px){
  .navbar-brand img{
    width:250px;
+ }
+ .image-container {
+	 text-align: center;
  }
  form.headbar-form {
    text-align: center;
@@ -210,4 +214,5 @@ footer li {
 		text-align: center;
     	line-height: 2.5em;
 	}
-}
+}+
+++

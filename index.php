@@ -1,8 +1,12 @@
+<?php
+$page = $_SERVER['PHP_SELF'];
+$sec = "10";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
   <head>
-
+		<meta http-equiv="refresh" content="<?php echo $sec ?>;URL='<?php echo $page ?>'">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -138,9 +142,9 @@
             <h2 class="text-center">How It Works</h2>
             
 			  <div class="row">
-			  	<div class="col-sm-12 col-md-4 mb-2" style="text-align: center;">
-					<img src="images/image_recycle.png" class="img-fluid">
-				</div>
+			  	<div class="col-sm-12 col-md-4 m-auto image-container" style="text-align: center;">
+						<img src="images/image_recycle.png" class="img-fluid">
+					</div>
 			  	<div class="col-sm-12 col-md-8">
 					<div class="row">
 						<div class="col-12"><img src="images/round_1.png" class="mr-3">You pick a date and a two-hour window.</div>
