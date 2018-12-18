@@ -166,12 +166,12 @@
 					<!-- Computers -->
 					<h5>Computers</h5>
 
-					<p class="lead">If you’ve ever tried to move a fridge or stove, you know it’s a difficult job without help. Aside from the heavy lifting dangers associated with trying to haul a heavy appliance to the dump, improper disposal can also harm the environment. Many old house hold contain ozone-depleting chemicals that disperse into the air when left to break down in a landfill. Taking the proper steps to handle your appliance removal responsibly not only preserves your back health, but the health of the environment, too.</p>
+					<p class="lead">Technology is advancing at a rapid pace these days, which means that people are replacing their laptops, computers, and tablets much more often. The problem comes when people decide to get rid of their old computers, which can end up in landfills and cause damage to the environment.</p>
 					<p class="lead">
-						We kindly ask that you unhook any appliances before we arrive, as we are not electricians by trade. You won't have to do any of the heavy liftings, though! We make it easy to recycle and dispose of appliances in a way that's environmentally friendly. Just contact us to schedule a pickup that fits your needs.
+						If you need a hand getting rid of your old computers, laptops, monitors, and fax machines, American Junk Haul can help! Whether it’s a few small items from your home, or a bigger load of old equipment from an office or school, we can handle it. We avoid the landfill and focus on recycling or donating as much as we can.
 					</p>
 					<p class="lead">
-						As a bonus, replacing older ones with newer models will save energy consumption and usually lowers your bill, all the while reducing the use of fossil fuels. Let us help you remove the old to make room for something new!
+						We can take your old computers, laptops, monitors, and fax machines from residential homes, commercial offices, and schools. We avoid the landfill and focus on recycling or donating as much as we can. We are an eco-friendly company that cares about the environment.
 					</p>
 				</div>
 				<div class="col-lg-3 m-auto image-container">
@@ -189,16 +189,10 @@
 					<h5>Printers</h5>
 
 					<p class="lead">
-						If you have an old fridge that still works, it’s best to see if it can be donated. Many local charities accept donations of larger appliances as long as they’re still in working order.
+						These days, printers can do everything – from printing, scanning, and copying – and they’re even getting more affordable. (It’s often cheaper to buy a whole new printer than it is to replace the ink!) In many cases, people end up upgrading them much more often than they used to. Got a printer that you want to upgrade, or one that’s broken and you don’t know where to put it?
 					</p>
 					<p class="lead">
-						If your fridge is broken, it will need to be recycled. Research your local area to find out where you’ll need to drop off your fridge for proper recycling. If you can’t drop it off on your own, or simply just don’t have the time, let us handle it for you. We make it easy to get rid of your old fridge—we’ll do all the heavy lifting for you, and we’ll make sure it gets to the right place for proper disposal.
-					</p>
-					<p class="lead">
-						Any product containing metal should be recycled. Production of new metals can be costly and damaging to the environment. When we recycle metals, it helps to reduce the environmental impact of using metals. Many smaller appliances also contain substances that can decompose when left to sit in a landfill, releasing gases into the air and other toxins that can contaminate the soil and water supply.
-					</p>
-					<p class="lead">
-						We’re happy to help you get rid of any unwanted appliances. We’ll pick up the items for you and ensure they get recycled and properly disposed of.
+						If you need to recycle printers that no longer meet your needs, we can help. We’ll either get your printers recycled or, if they’re still in working order, get them to someone who can use them.
 					</p>
 				</div>
 				<div class="col-lg-1 mx-auto"></div>
@@ -210,7 +204,7 @@
 					<h5>Workspace Furniture</h5>
 
 					<p class="lead">
-						Getting rid of old furniture certainly isn’t an easy process. It's heavy, it's awkward, it's hard to maneuver, and it’s nearly impossible to do on your own. Even if you can manage to convince someone to help you with the heavy lifting, you still have to drop it off for donation or at the dump on your own.
+						Getting rid of old workspace furniture certainly isn’t an easy process. It's heavy, it's awkward, it's hard to maneuver, and it’s nearly impossible to do on your own. Even if you can manage to convince someone to help you with the heavy lifting, you still have to drop it off for donation or at the dump on your own.
 					</p>
 					<p class="lead">
 						Luckily, there's a much easier way to deal with furniture removal — let us take care of it for you! It might just be the easiest decision you’ll ever make.
@@ -244,13 +238,10 @@
 					<h5>Filing Cabinets</h5>
 
 					<p class="lead">
-						Are you remodeling and putting in new flooring? Whether you’re replacing your old worn out carpet with new carpeting or putting in hardwood flooring or tile instead, you may be wondering what to do with your old carpet remnants. What if you could just point, and make it all disappear?
+						Getting rid of unused filing cabinets in your office space isn’t an easy process, It’s bulky, heavy and hard to maneuver, and it’s nearly impossible to do on your own.
 					</p>
 					<p class="lead">
-						Even though your carpet has reached the end of its life in your home, that doesn't mean it can't be repurposed to create new products. Old carpeting can be recycled and used to create new carpet, as well as plastic parts for auto interiors and engines, industrial flooring, and even parking barriers.
-					</p>
-					<p class="lead">
-						At American Junk Haul, we can take all types of household and commercial carpeting as well as large area rugs. After we remove your carpet, we evaluate the condition and decide whether it should be disposed or recycled. Rest assured, we always choose the most environmentally-friendly method available.
+						Take advantage of our junk removal services to take care of your filing cabinet problem.
 					</p>
 				</div>
 				<div class="col-lg-1 mx-auto"></div>
@@ -259,5 +250,3 @@
 	</section>  
 <?php include("form-start.php"); ?>
 <?php include("footer.php"); ?>
-
-# TODO: change the content of services
