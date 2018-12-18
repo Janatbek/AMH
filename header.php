@@ -25,9 +25,9 @@
 			      <li class="nav-item">
               <a class="nav-link" href="locations">Locations</a>
             </li>
-			      <li class="nav-item">
+			      <!-- <li class="nav-item">
               <a class="nav-link" href="blog">Blog</a>
-            </li>  
+            </li>   -->
 			      <li class="nav-item nav_cta rounded">
               <a class="nav-link" href="free-appointment">Free Appointment</a>
             </li>
