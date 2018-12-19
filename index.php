@@ -1,7 +1,4 @@
-<?php
-$page = $_SERVER['PHP_SELF'];
-$sec = "10";
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,7 +28,14 @@ $sec = "10";
 				<div class="lead_header">
 					<h1>Affordable Junk Removal Services in Van Nuys, CA</h1>
 					<form method="post" action="free-appointment" >
-						<input id="txtNumber" class="form-control form-control-lg d-inline-block" type="text" placeholder="Your Zip Code" onkeypress="return isNumberKey(event)" name="zipCode">
+						<input 
+							id="txtNumber" 
+							class="form-control form-control-lg d-inline-block" 
+							type="text" 
+							placeholder="Your Zip Code" 
+							onkeypress="return 
+							isNumberKey(event)" 
+							name="zipCode">
 						<button type="submit" class="btn-lg lg-2 lead_header_button">Check Availability</button>
 					</form>
 					<p class="lead">Or Call <a href="tel:+13236181141" class="phone">3236181141</a></p>

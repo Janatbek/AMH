@@ -5,31 +5,39 @@
 		<div class="lead_header">
 			<h1>Free Estimate Appointment</h1>
 			<form method="post" action="free-appointment-contact.php">
+			<input type="hidden" name="zipCode" value="<?php echo htmlspecialchars($_POST['zipCode']); ?>">
+			<input type="hidden" name="time" value="<?php echo htmlspecialchars($_POST['time']); ?>">
+			<input type="hidden" name="date" value="<?php echo htmlspecialchars($_POST['date']); ?>">
 				<div class="row mb-5">
-					<div class="col-2"></div>
-					<div class="col-8">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-10">
 							<div class="book_block rounded p-5 mt-3">
 								<p>Where Should We Do Pick Up?</p>
 								<div class="row mt-5">
-									<div class="col-2"></div>
-									<div class="col-4">
-										<input id="txtNumber" class="form-control form-control-lg d-inline-block" type="text" placeholder="Street Address">
+									<div class="col-sm-12 col-md-4">
+										<input 
+											class="form-control form-control-lg d-inline-block" 
+											type="text" 
+											placeholder="Street Address" 
+											name="street"
+											required>
 									</div>
-									<div class="col-4">
-										<input id="txtNumber" class="form-control form-control-lg d-inline-block" type="text" placeholder="Apt / Suite">
+									<div class="col-sm-12 col-md-4">
+										<input 
+											class="form-control form-control-lg d-inline-block" 
+											type="text" 
+											placeholder="Apt / Suite" 
+											name="apt"
+											required>
 									</div>
-									<div class="col-2"></div>
-								</div>
-								
-								<div class="row mt-5">
-									<div class="col-2"></div>
-									<div class="col-4">
-										<input id="txtNumber" class="form-control form-control-lg d-inline-block" type="text" placeholder="City">
+									<div class="col-sm-12 col-md-4">
+										<input 
+											class="form-control form-control-lg d-inline-block" 
+											type="text" 
+											placeholder="City" 
+											name="city" 
+											required>
 									</div>
-									<div class="col-4">
-										<input id="txtNumber" class="form-control form-control-lg d-inline-block" type="text" placeholder="Zip Code">
-									</div>
-									<div class="col-2"></div>
 								</div>
 
 								<div class="row mt-5">
@@ -39,7 +47,7 @@
 								</div>
 							</div>
 					</div>
-					<div class="col-2"></div>
+					<div class="col-sm-1"></div>
 				</div>
 			</form>
 		</div>

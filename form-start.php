@@ -11,7 +11,8 @@
                         class="form-control form-control-lg d-inline-block width200" 
                         type="text" 
                         placeholder="Your Zip Code" 
-                        onkeypress="return isNumberKey(event)">
+                        onkeypress="return isNumberKey(event)"
+                        name="zipCode">
                     <button type="submit" class="btn-lg lg-2 lead_header_button">Check Availability</button>
                 </form>
             </div>
