@@ -17,14 +17,6 @@
 	mail($email_to, $email_subject, $email_message, $headers);
 	}
 ?>
-<?php
-$to = "janatbek@gmail.com";
-$subject = "My subject";
-$txt = "Hello world!";
-$headers = "From: jsharsheyev@micron.com" . "\r\n";
-
-mail($to, $subject, $txt, $headers);
-?>
 
 <!DOCTYPE html>
 <html lang="en">
