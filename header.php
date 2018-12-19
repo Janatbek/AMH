@@ -2,7 +2,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#">
+        <a class="navbar-brand js-scroll-trigger" href="https://americanjunkhaul.com">
           <img src="images/logo_top.png">
         </a>
         <button class="navbar-toggler" 

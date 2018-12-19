@@ -17,22 +17,27 @@
 					<li class="list-inline-item"><a href="terms-of-use">Terms of Use</a></li>
 					<li class="list-inline-item"><a href="privacy-policy">Privacy Policy</a></li>
 				</ul>
-				<p class="mt-5 text-center">Copyright &copy; American Junk Haul 2018 - 2019</p>
+				<p class="mt-5 text-center">Copyright &copy; American Junk Haul 2018 - <?php echo date("Y") ?></p>
 				<p>Built by <a href="https://github.com/Janatbek">Janatbek Sharsheyev</a></p>
       </div>
       <!-- /.container -->
     </footer>
 	  
 	<script>
-		function isNumberKey(evt)
-			{
-				var charCode = (evt.which) ? evt.which : evt.keyCode;
-				if (charCode != 46 && charCode > 31 && (charCode < 48 || charCode > 57)){
-					return false;
-				} else {
-					return true;
-				}
-			}   
+	console.log(window.location.href)
+		function isNumberKey(evt) {
+			var charCode = (evt.which) ? evt.which : evt.keyCode;
+			if (charCode != 46 && charCode > 31 && (charCode < 48 || charCode > 57)){
+				return false;
+			} else {
+				return true;
+			}
+		} 
+		if (window.location.href === 'https://americanjunkhaul.com/free-appointment-thanks.php') {
+			setTimeout(function () {
+				window.location.href= 'https://americanjunkhaul.com';
+			}, 5000);
+		}  
 	</script>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

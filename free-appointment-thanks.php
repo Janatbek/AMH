@@ -1,6 +1,6 @@
 <?php
 	if (isset($_POST['email'])) {
-		$email_to = "janatbek@gmail.com";
+		$email_to = "americanjunkhaul@gmail.com";
 		$email_subject = "Quote request from ". $_POST["fname"];
 		
 		$email_message = "Form details below.\n\n";
@@ -10,10 +10,10 @@
 		$email_message .= "Telephone: " . $_POST["phone"] . "\n";
 		$email_message .= "Address: " . $_POST["street"] . " ";
 		$email_message .= $_POST["apt"] . " " . $_POST["city"] . ", " . $_POST["zipCode"] . "\n";
-		$email_message .= "On date: " . $_POST["date"] . "\n";
-		$email_message .= "and Time between: " . $_POST["time"] . "\n";
+		$email_message .= "Requested service date: " . $_POST["date"] . "\n";
+		$email_message .= "between: " . $_POST["time"] . "\n";
 	// create email headers
-	$headers = 'From: ' . $_POST["email"] . "\r\n" . 'Reply-To: ' . $_POST["email"] . "\r\n" . 'X-Mailer: PHP/' . phpversion();
+	$headers = 'From: ' . "americanjunkhaul@gmail.com". "\r\n" . 'Reply-To: ' . $_POST["email"] . "\r\n" . 'X-Mailer: PHP/' . phpversion();
 	mail($email_to, $email_subject, $email_message, $headers);
 	}
 ?>
@@ -51,9 +51,9 @@
 							<div class="book_block rounded p-5 mt-3">
 								<p>Your Free Appointment is Now Scheduled!</p>
 								<p>We will see you on<br>
-									<span>Monday, August 20th</span>
+									<span><?php echo date("F j, Y", strtotime($_POST['date'])); ?></span>
 									between<br>
-									<span>10:00am and 12:00pm</span>
+									<span><?php echo htmlspecialchars($_POST['time']); ?></span>
 									<p>Change of Plans? Need to Cancel?<br>
 									Please give us a call at <a href="tel:+13236181141">3236181141</a> to reschedule or cancel.</p>
 								</p>
