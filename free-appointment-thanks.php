@@ -1,4 +1,22 @@
-
+<?php
+	if (isset($_POST['email'])) {
+		$email_to = "janatbek@gmail.com";
+		$email_subject = "Quote request from ". $_POST["fname"];
+		
+		$email_message = "Form details below.\n\n";
+		$email_message .= "First Name: " . $_POST["fname"] . "\n";
+		$email_message .= "Last Name: " . $_POST["lname"] . "\n";
+		$email_message .= "Email: " . $_POST["email"] . "\n";
+		$email_message .= "Telephone: " . $_POST["phone"] . "\n";
+		$email_message .= "Address: " . $_POST["street"] . " ";
+		$email_message .= $_POST["apt"] . " " . $_POST["city"] . ", " . $_POST["zipCode"] . "\n";
+		$email_message .= "On date: " . $_POST["date"] . "\n";
+		$email_message .= "and Time between: " . $_POST["time"] . "\n";
+	// create email headers
+	$headers = 'From: ' . $_POST["email"] . "\r\n" . 'Reply-To: ' . $_POST["email"] . "\r\n" . 'X-Mailer: PHP/' . phpversion();
+	mail($email_to, $email_subject, $email_message, $headers);
+	}
+?>
 <?php
 $to = "janatbek@gmail.com";
 $subject = "My subject";
