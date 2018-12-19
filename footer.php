@@ -36,7 +36,7 @@
 		if (window.location.href === 'https://americanjunkhaul.com/free-appointment-thanks.php') {
 			setTimeout(function () {
 				window.location.href= 'https://americanjunkhaul.com';
-			}, 5000);
+			}, 15000);
 		}  
 	</script>
     <!-- Bootstrap core JavaScript -->

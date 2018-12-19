@@ -24,11 +24,11 @@
 									</div>
 									<div class="col-md-6 col-sm-12">
 										<select class="form-control btn-white dropdown-toggle d-inline-block header-drop" name="time" required>
-										  <option value="8:00am - 10:00pm">8:00am - 10:00pm</option>
-											<option value="10:00am - 12:00pm">10:00am - 12:00pm</option>
-										  <option value="12:pm - 2:00pm">12:pm - 2:00pm</option>
-										  <option value="2:00pm - 4:00pm">2:00pm - 4:00pm</option>
-										  <option value="4:00pm - 6:00pm">4:00pm - 6:00pm</option>
+										  <option value="8:00am - 10:00pm">8:00 am - 10:00 am</option>
+											<option value="10:00am - 12:00pm">10:00 am - 12:00 pm</option>
+										  <option value="12:pm - 2:00pm">12:00 pm - 2:00 pm</option>
+										  <option value="2:00pm - 4:00pm">2:00 pm - 4:00 pm</option>
+										  <option value="4:00pm - 6:00pm">4:00 pm - 6:00 pm</option>
 										</select>
 									</div>
 								</div>

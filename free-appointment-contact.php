@@ -37,19 +37,34 @@
 								<p>Perfect! What is your Name?</p>
 								<div class="row mt-2">
 									<div class="col-sm-12 col-md-6">
-										<input class="form-control form-control-lg d-inline-block" type="text" name="fname" placeholder="First Name" required>
+										<input class="form-control form-control-lg d-inline-block" 
+											type="text" 
+											name="fname" 
+											placeholder="First Name" 
+											required>
 									</div>
 									<div class="col-sm-12 col-md-6">
-										<input class="form-control form-control-lg d-inline-block" type="text" name="lname" placeholder="Last Name">
+										<input class="form-control form-control-lg d-inline-block" 
+											type="text" 
+											name="lname" 
+											placeholder="Last Name">
 									</div>
 								</div>
 								
 								<div class="row mt-2">
 									<div class="col-sm-12 col-md-6">
-										<input class="form-control form-control-lg d-inline-block" type="text" name="email" placeholder="Email Address" required>
+										<input class="form-control form-control-lg d-inline-block" 
+											type="text" 
+											name="email" 
+											placeholder="Email Address" 
+											required>
 									</div>
 									<div class="col-sm-12 col-md-6">
-										<input class="form-control form-control-lg d-inline-block" type="text" name="phone" placeholder="Mobile Phone Number" required>
+										<input class="form-control form-control-lg d-inline-block" 
+											type="text" 
+											name="phone" 
+											placeholder="Mobile Phone Number" 
+											required>
 										<span class="disclaimer">We will text you when we’re on our way</span>
 									</div>
 								</div>

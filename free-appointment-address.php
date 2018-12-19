@@ -27,8 +27,7 @@
 											class="form-control form-control-lg d-inline-block" 
 											type="text" 
 											placeholder="Apt / Suite" 
-											name="apt"
-											required>
+											name="apt">
 									</div>
 									<div class="col-sm-12 col-md-4">
 										<input 
