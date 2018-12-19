@@ -115,7 +115,7 @@
 			<div class="row">
 				<div class="col-lg-1 mx-auto"></div>
 				<div class="col-lg-3 m-auto image-container">
-					<img src="images/garbage.png" class="img-fluid mt-5" alt="Garbage Can Royalty Free Vector Clip Art Illustration - Garbage">
+					<img src="images/collaboration.png" class="img-fluid mt-5" alt="Garbage Can Royalty Free Vector Clip Art Illustration - Garbage">
 				</div>
 				<div class="col-lg-7 mx-auto">
 					<h5>Garbage Removal</h5>
