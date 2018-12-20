@@ -26,11 +26,7 @@
       <div class="container text-center">
 		<div class="lead_header">
 			<h1>Your trusted junk removal service</h1>
-			<form method="post" action="free-appointment">
-				<input id="txtNumber" class="form-control form-control-lg d-inline-block" type="text" placeholder="Your Zip Code" onkeypress="return isNumberKey(event)">
-				<button type="submit" class="btn-lg lg-2 lead_header_button">Check Availability</button>
-			</form>
-			<p class="lead">Or Call <a href="tel:+13236181141" class="phone">3236181141</a></p>
+			<?php include("form-and-buttons.php") ?>
 		</div>
       </div>
     </header>
