@@ -11,7 +11,7 @@
 				<ul class="list-inline mt-5">
 					<li class="list-inline-item"><a href="about-us">About Us</a></li>
 					<li class="list-inline-item"><a href="frequently-asked-questions">FAQ’s</a></li>
-					<li class="list-inline-item"><a href="referral-program">Referral Program</a></li>
+					<!-- <li class="list-inline-item"><a href="referral-program">Referral Program</a></li> -->
 					<li class="list-inline-item"><a href="blog">Blog</a></li>
 					<li class="list-inline-item"><a href="locations">Locations</a></li>
 					<li class="list-inline-item"><a href="terms-of-use">Terms of Use</a></li>

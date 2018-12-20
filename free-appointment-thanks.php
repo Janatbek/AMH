@@ -1,9 +1,10 @@
 <?php
-	if (isset($_POST['email'])) {
+	if (isset($_POST["email"])) {
 		$email_to = "americanjunkhaul@gmail.com";
 		$email_subject = "Quote request from ". $_POST["fname"];
+		$from = "americanjunkhaul@gmail.com";
 		
-		$email_message = "Form details below.\n\n";
+		$email_message  = "Form details below.\n\n";
 		$email_message .= "First Name: " . $_POST["fname"] . "\n";
 		$email_message .= "Last Name: " . $_POST["lname"] . "\n";
 		$email_message .= "Email: " . $_POST["email"] . "\n";
@@ -13,7 +14,12 @@
 		$email_message .= "Requested service date: " . $_POST["date"] . "\n";
 		$email_message .= "between: " . $_POST["time"] . "\n";
 	// create email headers
-	$headers = 'From: ' . "americanjunkhaul@gmail.com". "\r\n" . 'Reply-To: ' . $_POST["email"] . "\r\n" . 'X-Mailer: PHP/' . phpversion();
+	$headers = "MIME-Version: 1.0" . "\r\n";
+	$headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
+	$headers .= "From: ". $from . "\r\n" .
+	$headers = 'From: ' . "americanjunkhaul@gmail.com". "\r\n" . 
+	"Reply-To: " . $_POST["email"] . "\r\n" . 
+	"X-Mailer: PHP/" . phpversion();
 	mail($email_to, $email_subject, $email_message, $headers);
 	}
 ?>
