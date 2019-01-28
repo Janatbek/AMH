@@ -17,7 +17,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
-	  <link href="css/ajh.css" rel="stylesheet">
+      <link href="css/ajh.css" rel="stylesheet">
 
   </head>
 
@@ -25,10 +25,10 @@
 
     <header class="bg-primary text-white">
       <div class="container text-center">
-				<div class="lead_header">
-					<h1>Affordable Junk Removal Services in Van Nuys, CA</h1>
-					<?php include("form-and-buttons.php") ?>
-				</div>
+        <div class="lead_header">
+            <h1>Affordable Junk Removal Services in Van Nuys, CA</h1>
+            <?php include("form-and-buttons.php") ?>
+        </div>
       </div>
     </header>
 	
