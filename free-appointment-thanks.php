@@ -2,7 +2,7 @@
 	if (isset($_POST["email"])) {
 		$email_to = "janatbek@gmail.com";
 		$email_subject = "Quote request from ". $_POST["fname"];
-		$from = "janatbek@gmail.com";
+		$from = "admin@americanjunkhaul.com";
 		
 		$email_message  = "Form details below.\n\n";
 		$email_message .= "First Name: " . $_POST["fname"] . "\n";
