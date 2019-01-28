@@ -114,7 +114,7 @@ button {
 
 
 .book_block {
-	background-color: #FFF;
+	background-color: rgba(255, 255, 255, 0.5);
 	padding: 20px;
 }
 .book_block ul {
