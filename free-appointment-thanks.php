@@ -1,8 +1,8 @@
 <?php
 	if (isset($_POST["email"])) {
-		$email_to = "americanjunkhaul@gmail.com,janatbek@gmail.com,admin@americanjunkhaul.com";
+		$email_to = "janatbek@gmail.com";
 		$email_subject = "Quote request from ". $_POST["fname"];
-		$from = "admin@americanjunkhaul.com";
+		$from = "janatbek@gmail.com";
 		
 		$email_message  = "Form details below.\n\n";
 		$email_message .= "First Name: " . $_POST["fname"] . "\n";
@@ -17,7 +17,6 @@
         $headers = "MIME-Version: 1.0" . "\r\n";
         $headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
         $headers .= "From: ". $from . "\r\n" .
-        $headers = 'From: ' . "admin@americanjunkhaul.com". "\r\n" .
         "Reply-To: " . $_POST["email"] . "\r\n" .
         "X-Mailer: PHP/" . phpversion();
         mail($email_to, $email_subject, $email_message, $headers);
