@@ -16,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/free-appointment-thanks.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -160,12 +160,12 @@
       <updated>1548652518190</updated>
       <workItem from="1548652522391" duration="2416000" />
       <workItem from="1548655678388" duration="182000" />
-      <workItem from="1548655888439" duration="1534000" />
+      <workItem from="1548655888439" duration="1599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4132000" />
+    <option name="totallyTimeSpent" value="4197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="63" width="1550" height="1195" extended-state="0" />
@@ -281,7 +281,7 @@
     <entry file="file://$PROJECT_DIR$/free-appointment-thanks.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
         </state>
       </provider>
     </entry>
