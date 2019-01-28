@@ -114,18 +114,16 @@ button {
 
 
 .book_block {
-	background-color: #FFF;
+	background-color: rgba(0, 0, 0, 0.3);
 	padding: 20px;
 }
-.book_block ul {
-	
-}
+
 .book_block p {
 	font-size: 1.3rem;
 	font-style: italic;
 	text-shadow: none;
 	font-weight: 600;
-	color: #222;
+	color: #ffffff;
 }
 
 

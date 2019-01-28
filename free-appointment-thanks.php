@@ -1,8 +1,8 @@
 <?php
 	if (isset($_POST["email"])) {
-		$email_to = "americanjunkhaul@gmail.com";
+		$email_to = "admin@americanjunkhaul.com";
 		$email_subject = "Quote request from ". $_POST["fname"];
-		$from = "americanjunkhaul@gmail.com";
+		$from = "admin@americanjunkhaul.com";
 		
 		$email_message  = "Form details below.\n\n";
 		$email_message .= "First Name: " . $_POST["fname"] . "\n";
@@ -17,7 +17,7 @@
 	$headers = "MIME-Version: 1.0" . "\r\n";
 	$headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
 	$headers .= "From: ". $from . "\r\n" .
-	$headers = 'From: ' . "americanjunkhaul@gmail.com". "\r\n" . 
+	$headers = 'From: ' . "admin@americanjunkhaul.com; janatbek@gmail.com". "\r\n" . 
 	"Reply-To: " . $_POST["email"] . "\r\n" . 
 	"X-Mailer: PHP/" . phpversion();
 	mail($email_to, $email_subject, $email_message, $headers);
@@ -46,31 +46,22 @@
 
 <?php include ("header.php"); ?>
 
-    <header class="bg-primary text-white">
-      <div class="container text-center">
-		<div class="lead_header">
-			<h1>You're All Set!</h1>
-			<form>
+	<header class="bg-primary text-white">
+		<div class="container text-center">
+			<div class="lead_header">
 				<div class="row mb-5">
 					<div class="col-2"></div>
 					<div class="col-8">
 							<div class="book_block rounded p-5 mt-3">
-								<p>Your Free Appointment is Now Scheduled!</p>
-								<p>We will see you on<br>
-									<span><?php echo date("F j, Y", strtotime($_POST['date'])); ?></span>
-									between<br>
-									<span><?php echo htmlspecialchars($_POST['time']); ?></span>
-									<p>Change of Plans? Need to Cancel?<br>
-									Please give us a call at <a href="tel:+13236181141">3236181141</a> to reschedule or cancel.</p>
-								</p>
+								<p>Thank you for booking an appointment with us.</p>
+								<p>Our specialist will give you call shortly,<br> with pricing and confirm your appointment</p>
 							</div>
 					</div>
 					<div class="col-2"></div>
 				</div>
-			</form>
+			</div>
 		</div>
-      </div>
-    </header>
+	</header>
 	
 	<section class="headbar">
       <div class="container">
