@@ -1,6 +1,6 @@
 <?php
 	if (isset($_POST["email"])) {
-		$email_to = "admin@americanjunkhaul.com";
+		$email_to = "janatbek@gmail.com";
 		$email_subject = "Quote request from ". $_POST["fname"];
 		$from = "admin@americanjunkhaul.com";
 		
