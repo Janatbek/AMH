@@ -67,6 +67,6 @@
 		
         </div>
     </section>  
-		<!-- put yelp here -->
+<?php include ("yelp.php"); ?>
 <?php include("form-start.php"); ?>
 <?php include ("footer.php"); ?>

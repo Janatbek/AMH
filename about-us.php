@@ -50,6 +50,7 @@
 					<div class="col-lg-1 mx-auto"></div>
         </div>  
       </div>
-    </section>  
+    </section>
+<?php include("yelp.php"); ?>
 <?php include("form-start.php"); ?>
 <?php include ("footer.php"); ?>

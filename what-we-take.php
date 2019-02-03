@@ -82,6 +82,7 @@
 					<div class="col-1"></div>
 				</div>  
 			</div>
-	</section>   
+	</section>
+<?php include ("yelp.php"); ?>
 <?php include("form-start.php"); ?> 
 <?php include ("footer.php"); ?>

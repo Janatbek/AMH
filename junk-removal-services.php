@@ -134,5 +134,6 @@
         </div>
       </div>
     </section>
+  <?php include("yelp.php"); ?>
 <?php include("form-start.php"); ?> 
 <?php include ("footer.php"); ?>
