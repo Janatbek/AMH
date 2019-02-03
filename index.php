@@ -126,7 +126,10 @@
 		  </div>  
 		
       </div>
-    </section>  
+    </section>
+    <section>
+        <?php include ("yelp.php"); ?>
+    </section>
 	  <!-- put yelp here -->
     <section id="howitworks">
       <div class="container">

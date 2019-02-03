@@ -1,18 +1,18 @@
 <?php
 	if (isset($_POST["email"])) {
-		$email_to = "janatbek@gmail.com";
+		$email_to = "americanjunkhaul@gmail.com";
 		$email_subject = "Quote request from ". $_POST["fname"];
-		$from = "admin@americanjunkhaul.com";
+		$from = "americanjunkhaul@gmail.com";
 		
-		$email_message  = "Form details below.\n\n";
-		$email_message .= "First Name: " . $_POST["fname"] . "\n";
-		$email_message .= "Last Name: " . $_POST["lname"] . "\n";
-		$email_message .= "Email: " . $_POST["email"] . "\n";
-		$email_message .= "Telephone: " . $_POST["phone"] . "\n";
+		$email_message  = "Form details below.\r\n";
+		$email_message .= "First Name: " . $_POST["fname"] . "\r\n";
+		$email_message .= "Last Name: " . $_POST["lname"] . "\r\n";
+		$email_message .= "Email: " . $_POST["email"] . "\r\n";
+		$email_message .= "Telephone: " . $_POST["phone"] . "\r\n";
 		$email_message .= "Address: " . $_POST["street"] . " ";
-		$email_message .= $_POST["apt"] . " " . $_POST["city"] . ", " . $_POST["zipCode"] . "\n";
-		$email_message .= "Requested service date: " . $_POST["date"] . "\n";
-		$email_message .= "between: " . $_POST["time"] . "\n";
+		$email_message .= $_POST["apt"] . " " . $_POST["city"] . ", " . $_POST["zipCode"] . "\r\n";
+		$email_message .= "Requested service date: " . $_POST["date"] . "\r\n";
+		$email_message .= "between: " . $_POST["time"] . "\r\n";
         // create email headers
         $headers = "MIME-Version: 1.0" . "\r\n";
         $headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
