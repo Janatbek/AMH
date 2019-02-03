@@ -1,0 +1,5 @@
+From: admin@americanjunkhaul.com 
+\To: janatbek@gmail.com 
+\Subject: Hello World 
+
+\This email was sent using MSMTP via Gmail/Yahoo.
