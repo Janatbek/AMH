@@ -1,10 +1,31 @@
 <?php include ("html-head.php"); ?>
 <?php include ("header.php"); ?>
+
+
     <header class="bg-primary text-white">
       <div class="container text-center">
 		<div class="lead_header">
 			<h1>Free Estimate Appointment</h1>
 			<form method="post" action="free-appointment-contact.php">
+
+                <table>
+                    <?php
+
+
+                    foreach ($_POST as $key => $value) {
+                        echo "<tr>";
+                        echo "<td>";
+                        echo $key;
+                        echo "</td>";
+                        echo "<td>";
+                        echo $value;
+                        echo "</td>";
+                        echo "</tr>";
+                    }
+
+
+                    ?>
+                </table>
 			<input type="hidden" name="zipCode" value="<?php echo htmlspecialchars($_POST['zipCode']); ?>">
 			<input type="hidden" name="time" value="<?php echo htmlspecialchars($_POST['time']); ?>">
 			<input type="hidden" name="date" value="<?php echo htmlspecialchars($_POST['date']); ?>">

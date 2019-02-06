@@ -61,11 +61,8 @@
 				<p class="lead">This is why we’re proud to offer our professional, affordable, and sustainable junk removal solutions to our friends and neighbors in Los Angeles, Orange, Ventura, and San Bernardino Counties. If your home or business is in one of these areas, we invite you to give us a call at <strong><a href="tel:+13236181141">3236181141</a></strong> or book online for free no-obligation estimate appointment.</p>
 			</div>
 			<div class="col-lg-1 mx-auto"></div>
-
-				
-        </div>
-		
-        </div>
+        </div><!--row-->
+      </div><!--container-->
     </section>  
 <?php include ("yelp.php"); ?>
 <?php include("form-start.php"); ?>

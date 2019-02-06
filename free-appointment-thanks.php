@@ -1,26 +1,34 @@
 <?php
-	if (isset($_POST["email"])) {
-		$email_to = "americanjunkhaul@gmail.com";
-		$email_subject = "Quote request from ". $_POST["fname"];
-		$from = "americanjunkhaul@gmail.com";
-		
-		$email_message  = "Form details below.\r\n";
-		$email_message .= "First Name: " . $_POST["fname"] . "\r\n";
-		$email_message .= "Last Name: " . $_POST["lname"] . "\r\n";
-		$email_message .= "Email: " . $_POST["email"] . "\r\n";
-		$email_message .= "Telephone: " . $_POST["phone"] . "\r\n";
-		$email_message .= "Address: " . $_POST["street"] . " ";
-		$email_message .= $_POST["apt"] . " " . $_POST["city"] . ", " . $_POST["zipCode"] . "\r\n";
-		$email_message .= "Requested service date: " . $_POST["date"] . "\r\n";
-		$email_message .= "between: " . $_POST["time"] . "\r\n";
-        // create email headers
-        $headers = "MIME-Version: 1.0" . "\r\n";
-        $headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
-        $headers .= "From: ". $from . "\r\n" .
+if (isset($_POST["email"])) {
+    $email_to = "americanjunkhaul@gmail.com";
+    $email_subject = "Quote request from ". $_POST["fname"];
+    $from = "americanjunkhaul@gmail.com";
+
+    $email_message  = "Form details below.\r\n";
+    $email_message .= "Zip Code: "  . $_POST["zipCode"] . "\r\n";
+
+    $email_message .= "First Name: " . $_POST["name"] . "\r\n";
+    $email_message .= "Email: " . $_POST["email"] . "\r\n";
+
+    $email_message .= "Requested service date: " . $_POST["date"] . "\r\n";
+    $email_message .= "between: " . $_POST["time"] . "\r\n";
+
+    $email_message .= "Telephone: " . $_POST["phone"] . "\r\n";
+    $email_message .= "Service Type: " . $_POST["serviceType"] . "\r\n";
+
+    $email_message .= "Notes: "  . $_POST["serviceNotes"] . "\r\n";
+
+
+
+
+    // create email headers
+    $headers = "MIME-Version: 1.0" . "\r\n";
+    $headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
+    $headers .= "From: ". $from . "\r\n" .
         "Reply-To: " . $_POST["email"] . "\r\n" .
         "X-Mailer: PHP/" . phpversion();
-        mail($email_to, $email_subject, $email_message, $headers);
-	}
+    mail($email_to, $email_subject, $email_message, $headers);
+}
 ?>
 
 <!DOCTYPE html>

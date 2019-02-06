@@ -203,6 +203,10 @@ footer li {
  form.headbar-form {
    text-align: center;
  }
+
+.textarea-width {
+	width: 250px;
+}
 }
 
 /* ----------- Tablets ----------- */
@@ -214,5 +218,37 @@ footer li {
 		text-align: center;
     	line-height: 2.5em;
 	}
-}+
-++
+}
+
+/* form fields css */
+.form-fields-wrapper{
+	padding: 30px 30px 30px 30px;
+	background-color: rgba(255,255,255,0.72);
+	text-align: left;
+	margin: auto;
+}
+
+.form-fields-wrapper label {
+	color: #919ca7;
+}
+
+.form-fields-wrapper .required-fields label:after{
+	content: "*";
+	color: red;
+	padding-left: .2em;
+}
+
+.custom-select-width {
+	width: 250px;
+}
+
+.textarea-width {
+	width: 585px;
+}
+
+
+
+
+
+
+
