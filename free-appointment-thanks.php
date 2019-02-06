@@ -16,7 +16,7 @@ if (isset($_POST["email"])) {
     $email_message .= "Telephone: " . $_POST["phone"] . "\r\n";
     $email_message .= "Service Type: " . $_POST["serviceType"] . "\r\n";
 
-    $email_message .= "Notes: "  . $_POST["serviceNotes"] . "\r\n";
+    $email_message .= "Notes: "  . $_POST["notes"] . "\r\n";
 
     // create email headers
     $headers = "MIME-Version: 1.0" . "\r\n";
