@@ -191,9 +191,16 @@ footer li {
 	text-decoration-line: none;
 }
 
+.textarea-width {
+	width: 585px;
+}
+
 /* ----------- Media Devices ------*/
 /* Phones */
 @media (max-width:768px){
+  .textarea-width {
+		width: 250px;
+ }
  .navbar-brand img{
    width:250px;
  }
@@ -204,9 +211,6 @@ footer li {
    text-align: center;
  }
 
-.textarea-width {
-	width: 250px;
-}
 }
 
 /* ----------- Tablets ----------- */
@@ -242,9 +246,6 @@ footer li {
 	width: 250px;
 }
 
-.textarea-width {
-	width: 585px;
-}
 
 
 
