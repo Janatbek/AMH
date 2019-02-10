@@ -4,33 +4,35 @@ if (isset($_POST["email"])) {
     $email_subject = "Quote request from ". $_POST["fname"];
     $from = "americanjunkhaul@gmail.com";
 
-    $email_message  = "Form details below.\r\n";
-    $email_message .= "Zip Code: "  . $_POST["zipCode"] . "\r\n";
 
-    $email_message .= "First Name: " . $_POST["name"] . "\r\n";
-    $email_message .= "Email: " . $_POST["email"] . "\r\n";
+    $message = '<html><body>';
+    $message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
+    $message .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . strip_tags($_POST['name']) . "</td></tr>";
+    $message .= "<tr><td><strong>Email:</strong> </td><td>" . strip_tags($_POST['email']) . "</td></tr>";
 
-    $email_message .= "Requested service date: " . $_POST["date"] . "\r\n";
-    $email_message .= "between: " . $_POST["time"] . "\r\n";
+    $message .= "<tr><td><strong>Zip Code:</strong> </td><td>" . strip_tags($_POST['zipCode']) . "</td></tr>";
+    $message .= "<tr><td><strong>Phonw:</strong> </td><td>" . strip_tags($_POST['phone']) . "</td></tr>";
 
-    $email_message .= "Telephone: " . $_POST["phone"] . "\r\n";
-    $email_message .= "Service Type: " . $_POST["serviceType"] . "\r\n";
+    $message .= "<tr><td><strong>Type of Service:</strong> </td><td>" . strip_tags($_POST['serviceType']) . "</td></tr>";
+    $message .= "<tr><td><strong>Date of Service:</strong> </td><td>" . strip_tags($_POST['date']) . "</td></tr>";
+    $message .= "<tr><td><strong>Between:</strong> </td><td>" . strip_tags($_POST['time']) . "</td></tr>";
 
-    $email_message .= "Notes: "  . $_POST["notes"] . "\r\n";
-
+    $message .= "<tr><td><strong>Notes:</strong> </td><td>" . $_POST['notes'] . "</td></tr>";
+    
+    $message .= "</table>";
+    $message .= "</body></html>";
     // create email headers
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
     $headers .= "From: ". $from . "\r\n" .
         "Reply-To: " . $_POST["email"] . "\r\n" .
         "X-Mailer: PHP/" . phpversion();
-    mail($email_to, $email_subject, $email_message, $headers);
+    mail($email_to, $email_subject, $message, $headers);
 }
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -38,14 +40,15 @@ if (isset($_POST["email"])) {
     <meta name="author" content="">
 
     <title>Thanks! You're All Set!</title>
-		<link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
-	  <link href="css/ajh.css" rel="stylesheet">
+    <link href="css/ajh.css" rel="stylesheet">
   </head>
 
 <?php include ("header.php"); ?>

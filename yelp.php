@@ -4,8 +4,8 @@
             <div class="col-lg-9 mx-auto">
                 <h2>Customers Love Us!</h2>
                 <div class="row">
-                    <div class="col-4"></div>
-                    <div class="col-8">
+                    <div class="col-sm-2 col-md-4"></div>
+                    <div class="col-sm-10 col=md-8">
                         <div class="review_block rounded">
                             <!-- Original Block -->
 

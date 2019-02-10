@@ -1,3 +1,4 @@
+
   <body id="page-top">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
@@ -28,8 +29,12 @@
 			      <!-- <li class="nav-item">
               <a class="nav-link" href="blog">Blog</a>
             </li>   -->
-			      <li class="nav-item nav_cta rounded">
+			      <li class="nav-item nav_cta rounded text-center">
               <a class="nav-link" href="free-appointment">Free Quote</a>
+            </li>
+            <li class="nav-item nav_cta rounded text-center mt-1">
+              <a class="nav-link" href="tel:+13236181141">
+                <i class="fas fa-phone mr-1"></i>+1 (323)618-1141</a>
             </li>
           </ul>
         </div>

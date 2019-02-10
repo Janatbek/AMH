@@ -9,35 +9,35 @@
     <meta name="author" content="">
 
     <title>American Junk Haul - Contact Us</title>
-	<link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	  <link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
 	  <link href="css/ajh.css" rel="stylesheet">
-
   </head>
 
 <?php include ("header.php"); ?>
 
     <header class="bg-primary text-white header_short">
       <div class="container text-center">
-		<div class="lead_header">
-			<h1>Contact Us</h1>
-<p class="lead">Neighbourhoods we gladly serve</p>
-		</div>
+        <div class="lead_header">
+          <h1>Contact Us</h1>
+          <p class="lead">Neighbourhoods we gladly serve</p>
+        </div>
       </div>
     </header>
 	
 	<section class="headbar">
       <div class="container">
         <div class="row">
-			<div class="col-lg-3 mt-2"><img src="images/icon_same_day_service.png"> Same Day Service</div>
-			<div class="col-lg-3 mt-2"><img src="images/icon_guarantee.png"> Price Guarantee</div>
-			<div class="col-lg-3 mt-2"><img src="images/icon_rated.png"> Highly Rated</div>
-			<div class="col-lg-3 mt-2"><img src="images/icon_insured.png"> Licensed & Insured</div>
+          <div class="col-lg-3 mt-2"><img src="images/icon_same_day_service.png"> Same Day Service</div>
+          <div class="col-lg-3 mt-2"><img src="images/icon_guarantee.png"> Price Guarantee</div>
+          <div class="col-lg-3 mt-2"><img src="images/icon_rated.png"> Highly Rated</div>
+          <div class="col-lg-3 mt-2"><img src="images/icon_insured.png"> Licensed & Insured</div>
         </div>
       </div>
     </section>  
