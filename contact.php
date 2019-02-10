@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>American Junk Haul - Locations</title>
+    <title>American Junk Haul - Contact Us</title>
 	<link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
     <!-- Bootstrap core CSS -->
@@ -25,7 +25,7 @@
     <header class="bg-primary text-white header_short">
       <div class="container text-center">
 		<div class="lead_header">
-			<h1>Locations</h1>
+			<h1>Contact Us</h1>
 <p class="lead">Neighbourhoods we gladly serve</p>
 		</div>
       </div>

@@ -23,13 +23,13 @@
               <a class="nav-link" href="what-we-take">What we take</a>
             </li>
 			      <li class="nav-item">
-              <a class="nav-link" href="locations">Locations</a>
+              <a class="nav-link" href="contact">Contact Us</a>
             </li>
 			      <!-- <li class="nav-item">
               <a class="nav-link" href="blog">Blog</a>
             </li>   -->
 			      <li class="nav-item nav_cta rounded">
-              <a class="nav-link" href="free-appointment">Free Appointment</a>
+              <a class="nav-link" href="free-appointment">Free Quote</a>
             </li>
           </ul>
         </div>

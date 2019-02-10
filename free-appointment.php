@@ -84,7 +84,7 @@
                             </div>
                             <div class="row mt-5">
                                 <div class="col-12 text-center">
-                                    <button type="submit" class="btn-lg lg-2 lead_header_button">Next</button>
+                                    <button type="submit" class="btn-lg lg-2 lead_header_button">Submit</button>
                                 </div>
                             </div>
                         </div>
