@@ -6,16 +6,16 @@ if (isset($_POST["email"])) {
 
 
     $message = '<html><body>';
-    $message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
+    $message .= '<table rules="all" style="border-color: #666; margin: auto" cellpadding="10" border="1">';
     $message .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . strip_tags($_POST['name']) . "</td></tr>";
     $message .= "<tr><td><strong>Email:</strong> </td><td>" . strip_tags($_POST['email']) . "</td></tr>";
 
     $message .= "<tr><td><strong>Zip Code:</strong> </td><td>" . strip_tags($_POST['zipCode']) . "</td></tr>";
-    $message .= "<tr><td><strong>Phonw:</strong> </td><td>" . strip_tags($_POST['phone']) . "</td></tr>";
+    $message .= "<tr><td><strong>Phone:</strong> </td><td>" . strip_tags($_POST['phone']) . "</td></tr>";
 
     $message .= "<tr><td><strong>Type of Service:</strong> </td><td>" . strip_tags($_POST['serviceType']) . "</td></tr>";
     $message .= "<tr><td><strong>Date of Service:</strong> </td><td>" . strip_tags($_POST['date']) . "</td></tr>";
-    $message .= "<tr><td><strong>Between:</strong> </td><td>" . strip_tags($_POST['time']) . "</td></tr>";
+    $message .= "<tr><td><strong>Time Between:</strong> </td><td>" . strip_tags($_POST['time']) . "</td></tr>";
 
     $message .= "<tr><td><strong>Notes:</strong> </td><td>" . $_POST['notes'] . "</td></tr>";
     
