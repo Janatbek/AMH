@@ -32,7 +32,7 @@
 			      <li class="nav-item nav_cta rounded text-center">
               <a class="nav-link" href="quote-start.php">Free Quote</a>
             </li>
-            <li class="nav-item nav_cta rounded text-center ml-1">
+            <li class="nav-item nav_cta rounded text-center ml-1 mt-1">
               <a class="nav-link" href="tel:+13236181141">
                 <i class="fas fa-phone mr-1"></i>+1 (323)618-1141</a>
             </li>
