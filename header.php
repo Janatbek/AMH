@@ -30,7 +30,7 @@
               <a class="nav-link" href="blog">Blog</a>
             </li>   -->
 			      <li class="nav-item nav_cta rounded text-center">
-              <a class="nav-link" href="free-appointment">Free Quote</a>
+              <a class="nav-link" href="quote-start.php">Free Quote</a>
             </li>
             <li class="nav-item nav_cta rounded text-center ml-1">
               <a class="nav-link" href="tel:+13236181141">

@@ -5,8 +5,8 @@
 <header class="bg-primary text-white">
   <div class="container text-center">
     <div class="lead_header">
-        <h1>Free Estimate Appointment</h1>
-        <form action="free-appointment-thanks.php" method="post">
+        <h1>Free Quote</h1>
+        <form action="quote-final.php" method="post">
             <input type="hidden" name="zipCode" value="<?php echo htmlspecialchars($_POST['zipCode']); ?>">
             <div class="row mb-5">
                 <div class="col-2"></div>
